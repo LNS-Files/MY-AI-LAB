@@ -31,6 +31,14 @@ This project implements a standard **RAG Pipeline**:
 
 ---
 
+## 📂 Project Structure
+- **`app.py`**: The main entry point. Launches the Streamlit dashboard and handles the UI.
+- **`genai_assistant.py`**: The core logic. Contains the RAG pipeline and LLM orchestration.
+- **`build_memory.py`**: A utility script used to initialize the vector database and chunk your code.
+- **`requirements.txt`**: The "menu" of libraries needed to make the project run.
+- **`search_memory.py`**: A standalone script for testing the retrieval accuracy of ChromaDB.
+
+---
 ## ⚙️ Installation & Setup
 
 ### 1. Install Ollama
