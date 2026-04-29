@@ -1,0 +1,18 @@
+# Local Vector Database
+chroma_db/
+
+# Python caches
+__pycache__/
+*.py[cod]
+
+# Environment variables (for future use)
+.env
+
+# Virtual Environment
+ai_env/
+venv/
+.venv/
+
+# OS specific files
+.DS_Store
+Thumbs.db
